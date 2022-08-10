@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="de">
-    <head>
-        <meta charset="utf8">
-        <title>Formulary for computer science</title>
-    </head>
-    <body>
-        <h1 id="top">Mathematics for Computer
-            Science</h1>
-            <p>
-                Welcome to my page. 
-                Here are some formulary that I made for my time at the University Aalen. 
-                I hope they help you when you also are studying Computer Science or something similar.  
-            </p>
-        <section>
+<html lang="en">
+
+<head>
+    <meta charset="utf8">
+    <title>Formulary for computer science</title>
+</head>
+
+<body>
+    <h1 id="top">Mathematics for Computer
+        Science</h1>
+    <p>
+        Welcome to my page.
+        Here are some formulary that I made for my time at the University Aalen.
+        I hope it help's you when you also are studying Computer Science or something similar.
+    </p>
+    <section>
         <ul>
             <!--link to every section in the page-->
             <li><a href="#section1">Analysis</a></li>
@@ -20,36 +22,71 @@
             <li><a href="#section3">Algorithms</a></li>
             <li><a href="#section4">Stochastic</a></li>
         </ul>
-    
+
     </section>
 
     <section id="section1">
-        <h3>Analysis</h3>
-    <h2>Series:</h2>
-        <p>Step 1: Is it a known series?
+        <h2>Analysis</h2>
+        <section>
+            <h3>Series:</h3>
+            <p>Step 1: Is it a known series?
             <ul>
-                <li>geometric series : &#8512;q<sup>k</sup>     for |q| &lt; 1 &rArr; absolutly convergent  else divergent</li>
-                <li>harmonic series : &#8512; 1/k<sup>s</sup>   for s &gt; 1 konvergent for s &le; 1 divergent</li>
+                <li>geometric series : &#8512;q<sup>k</sup>
+                    <ul>
+                        <li>|q| &lt; 1 &rArr; absolutly convergent</li>
+                        <li>else divergent</li>
+                    </ul>
+                </li>
+                <li>harmonic series : &#8512;1/k<sup>s</sup>
+                    <ul>
+                        <li> s &gt; 1 konvergent</li>
+                        <li> s &le; 1 divergent</li>
+                    </ul>
+                </li>
             </ul>
-        </p>
+
+            Step 2: Is a<sub>k</sub> a null sequence? for k &rarr; &infin; &equals; 0
+            <ul>
+                <li>No? &rarr; divergent</li>
+                <li>Yes? Go to step 3!</li>
+            </ul>
+
+            Step 3: Convergence criteria
+            <ul>
+                <li>quotient criterion |a<sub>k+1</sub>/a<sub>k</sub>|<ul>
+                        <li>&lt; 1 absolutly konvergent</li>
+                        <li>&gt; 1 divergent</li>
+                        <li>&equals; 1 no result</li>
+                    </ul>
+                </li>
+                <li>leibniz criteria <ol>
+                        <li>alternating series</li>
+                        <li>|a<sub>k</sub>| monotonous zero sequence? &rarr; conditionally convergent</li>
+                    </ol>
+                </li>
+            </ul>
+
+            </p>
+        </section>
     </section>
     <section id="section2">
         <h3>Discrete Mathematics</h3>
         <p>
-        
+
         </p>
     </section>
     <section id="section3">
         <h3>Algorithms</h3>
         <p>
-            
+
         </p>
     </section>
     <section id="section4">
         <h3>Stochastic</h3>
         <p>
-             </p>
+        </p>
     </section>
 
-    </body>
+</body>
+
 </html>
