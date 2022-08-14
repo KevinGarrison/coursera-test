@@ -4,6 +4,11 @@
 <head>
     <meta charset="utf8">
     <title>Formulary for computer science</title>
+    <style>
+        h3 {
+            background-color: yellow;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,7 +25,7 @@
         </ul>
 
     </section>
-
+    <!--First section Analysis content-->
     <section id="section1">
         <h2>Analysis</h2>
         <section>
@@ -41,7 +46,7 @@
                 </li>
             </ul>
 
-            Step 2: Is a<sub>k</sub> a null sequence? for k &rarr; &infin; &equals; 0
+            Step 2: Is a<sub>k</sub> a zero sequence? for k &rarr; &infin; &equals; 0
             <ul>
                 <li>No? &rarr; Divergent</li>
                 <li>Yes? Go to step 3!</li>
@@ -85,10 +90,19 @@
             <h3>Derivatives:</h3>
             <ul>
                 <li>General derivation: n * x<sup>n-1</sup></li>
-                <li>(x) &rarr; cos(x) &rarr; &minus;sin(x) &rarr; &minus;cos(x)</li>
+                <li>sin(x) &rarr; cos(x) &rarr; &minus;sin(x) &rarr; &minus;cos(x)</li>
                 <li>ln(x) &rarr; 1/x &rarr; &minus;1/x<sup>2</sup> &rarr; &minus;2/x<sup>3</sup></li>
                 <li>e<sup>&minus;x</sup> &rarr; &minus;e<sup>&minus;x</sup> &rarr; e<sup>&minus;x</sup></li>
                 <li>&Sqrt;x &rarr; 1/2&Sqrt;x</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Derivation rules</h3>
+            <ul>
+                <li>Quotient rule: f'(x) = (u(x)/v(x))' = u'(x) * v(x) - u(x) * v'(x) / (v(x))<sup>2</sup></li>
+                <li>Product rule: f'(x) = (u(x) * v(x))' = u'(x) * v(x) + u(x) * v'(x)</li>
+                <li>Chain rule: f'(x) = u(v(x))' = u'(v(x)) * v'(x)</li>
+                <li>constants can always be placed in front of the term f'(x) = (c*u(x))' = c * u'(x)</li>
             </ul>
         </section>
         <section>
@@ -96,19 +110,19 @@
         </section>
     </section>
     <section id="section2">
-        <h3>Discrete Mathematics</h3>
+        <h2>Discrete Mathematics</h2>
         <p>
 
         </p>
     </section>
     <section id="section3">
-        <h3>Algorithms</h3>
+        <h2>Algorithms</h2>
         <p>
 
         </p>
     </section>
     <section id="section4">
-        <h3>Stochastic</h3>
+        <h2>Stochastic</h2>
         <p>
         </p>
     </section>
